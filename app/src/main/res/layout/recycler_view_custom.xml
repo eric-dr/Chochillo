@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id = "@+id/txtvw_titol"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvw_autor"
+        android:layout_below="@id/txtvw_titol"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvw_any"
+        android:layout_below="@id/txtvw_autor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvw_editorial"
+        android:layout_below="@id/txtvw_autor"
+        android:layout_toRightOf="@+id/txtvw_any"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtvw_categoria"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/txtvw_titol"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtvw_any"
+        android:numStars="5"
+        style = "?android:attr/ratingBarStyleSmall"
+        android:id="@+id/rtgbar_valoracio"/>
+</RelativeLayout>

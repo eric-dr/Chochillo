@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyDatabaseExample</string>
+    <string name="categoria">Categoria</string>
+    <string name="editorial">Editorial</string>
+    <string name="titol">Títol</string>
+    <string name="any">Any</string>
+    <string name="autor">Autor</string>
+    <string name="valoracio">Valoració personal</string>
+    <string name="subcategoria">Subcategoria</string>
+    <string name="afegir">Afegir</string>
+    <string name="busca_titol">Buscar per títol</string>
+</resources>
